@@ -33,11 +33,9 @@ Built with Langchain, LlamaCPP, Streamlit, ChromaDB and Sentence Transformers. W
 
 
 
-[![Demo Video](https://img.youtube.com/vi/0.jpg)](https://github.com/user-attachments/assets/460faf6f-66f6-4c2f-9558-72ad99a57ad4)
 
 <div align="center">
-<a href="https://github.com/user-attachments/assets/f70695ce-17f1-4fac-93e8-8c636fd05245">▶️ Alternate Demo Video Link</a>
-<a href="https://github.com/user-attachments/assets/460faf6f-66f6-4c2f-9558-72ad99a57ad4">▶️ Watch Demo Video</a>
+<a href="https://github.com/user-attachments/assets/f70695ce-17f1-4fac-93e8-8c636fd05245">▶️ Demo Video</a>
 </div>
 
 
