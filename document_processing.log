@@ -1,0 +1,79 @@
+2025-12-26 12:57:58,708 - INFO - The 'db' folder has been deleted.
+2025-12-26 12:57:58,708 - INFO - Loading and splitting documents in directory: /Users/naimur/Downloads/Code/VectorQuery/document_sources
+2025-12-26 12:57:58,708 - INFO - File type mappings: {'*.txt': <class 'langchain_community.document_loaders.text.TextLoader'>, '*.pdf': <class 'langchain_community.document_loaders.pdf.PyPDFLoader'>, '*.csv': <class 'langchain_community.document_loaders.csv_loader.CSVLoader'>, '*.docx': <class 'langchain_community.document_loaders.word_document.Docx2txtLoader'>, '*.xlss': <class 'langchain_community.document_loaders.excel.UnstructuredExcelLoader'>, '*.html': <class 'langchain_community.document_loaders.html.UnstructuredHTMLLoader'>, '*.pptx': <class 'langchain_community.document_loaders.powerpoint.UnstructuredPowerPointLoader'>, '*.ppt': <class 'langchain_community.document_loaders.powerpoint.UnstructuredPowerPointLoader'>, '*.md': <class 'langchain_community.document_loaders.markdown.UnstructuredMarkdownLoader'>, '*.json': <class 'langchain_community.document_loaders.json_loader.JSONLoader'>}
+2025-12-26 12:57:58,708 - INFO - chunk size:1000 and chunk overlap:200
+2025-12-26 12:57:58,708 - INFO - Processing files with pattern: *.txt
+2025-12-26 12:57:58,708 - INFO - Processing files with pattern: *.pdf
+2025-12-26 12:57:59,407 - INFO - Processing files with pattern: *.csv
+2025-12-26 12:57:59,408 - INFO - Processing files with pattern: *.docx
+2025-12-26 12:57:59,408 - INFO - Processing files with pattern: *.xlss
+2025-12-26 12:57:59,408 - INFO - Processing files with pattern: *.html
+2025-12-26 12:57:59,408 - INFO - Processing files with pattern: *.pptx
+2025-12-26 12:57:59,408 - INFO - Processing files with pattern: *.ppt
+2025-12-26 12:57:59,408 - INFO - Processing files with pattern: *.md
+2025-12-26 12:57:59,408 - INFO - Processing files with pattern: *.json
+2025-12-26 12:57:59,409 - INFO - Load pretrained SentenceTransformer: thenlper/gte-base
+2025-12-26 12:58:02,369 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-26 12:58:11,845 - INFO - The 'db' folder has been created.
+2025-12-26 12:58:24,050 - INFO - The 'db' folder has been deleted.
+2025-12-26 12:58:24,050 - INFO - Loading and splitting documents in directory: /Users/naimur/Downloads/Code/VectorQuery/document_sources
+2025-12-26 12:58:24,050 - INFO - File type mappings: {'*.txt': <class 'langchain_community.document_loaders.text.TextLoader'>, '*.pdf': <class 'langchain_community.document_loaders.pdf.PyPDFLoader'>, '*.csv': <class 'langchain_community.document_loaders.csv_loader.CSVLoader'>, '*.docx': <class 'langchain_community.document_loaders.word_document.Docx2txtLoader'>, '*.xlss': <class 'langchain_community.document_loaders.excel.UnstructuredExcelLoader'>, '*.html': <class 'langchain_community.document_loaders.html.UnstructuredHTMLLoader'>, '*.pptx': <class 'langchain_community.document_loaders.powerpoint.UnstructuredPowerPointLoader'>, '*.ppt': <class 'langchain_community.document_loaders.powerpoint.UnstructuredPowerPointLoader'>, '*.md': <class 'langchain_community.document_loaders.markdown.UnstructuredMarkdownLoader'>, '*.json': <class 'langchain_community.document_loaders.json_loader.JSONLoader'>}
+2025-12-26 12:58:24,050 - INFO - chunk size:1000 and chunk overlap:200
+2025-12-26 12:58:24,050 - INFO - Processing files with pattern: *.txt
+2025-12-26 12:58:24,050 - INFO - Processing files with pattern: *.pdf
+2025-12-26 12:58:24,429 - INFO - Processing files with pattern: *.csv
+2025-12-26 12:58:24,429 - INFO - Processing files with pattern: *.docx
+2025-12-26 12:58:24,429 - INFO - Processing files with pattern: *.xlss
+2025-12-26 12:58:24,429 - INFO - Processing files with pattern: *.html
+2025-12-26 12:58:24,429 - INFO - Processing files with pattern: *.pptx
+2025-12-26 12:58:24,429 - INFO - Processing files with pattern: *.ppt
+2025-12-26 12:58:24,430 - INFO - Processing files with pattern: *.md
+2025-12-26 12:58:24,430 - INFO - Processing files with pattern: *.json
+2025-12-26 12:58:24,430 - INFO - Load pretrained SentenceTransformer: thenlper/gte-base
+2025-12-26 12:58:27,058 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-26 12:58:36,442 - INFO - The 'db' folder has been created.
+2025-12-26 12:58:55,045 - INFO - Load pretrained SentenceTransformer: thenlper/gte-base
+2025-12-26 12:58:58,243 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-12-26 12:58:58,339 - INFO - .env has been found
+2025-12-26 12:58:58,368 - INFO - Gemini 2.5 Flash model has been loaded
+2025-12-26 13:02:48,037 - INFO - Load pretrained SentenceTransformer: thenlper/gte-base
+2025-12-26 13:02:51,468 - INFO - .env has been found
+2025-12-26 13:02:51,489 - INFO - Gemini 2.5 Flash model has been loaded
+2025-12-26 13:02:51,552 - WARNING - Error in PrintRetrievalHandler.on_retriever_start callback: NoSessionContext()
+2025-12-26 13:02:51,743 - WARNING - Error in PrintRetrievalHandler.on_retriever_end callback: NoSessionContext()
+2025-12-26 13:02:51,746 - INFO - AFC is enabled with max remote calls: 10.
+2025-12-26 13:02:52,929 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2025-12-26 13:03:55,379 - INFO - Load pretrained SentenceTransformer: thenlper/gte-base
+2025-12-26 13:03:58,420 - INFO - .env has been found
+2025-12-26 13:03:58,449 - INFO - Gemini 2.5 Flash model has been loaded
+2025-12-26 13:04:00,789 - INFO - Load pretrained SentenceTransformer: thenlper/gte-base
+2025-12-26 13:04:03,325 - INFO - .env has been found
+2025-12-26 13:04:03,359 - INFO - Gemini 2.5 Flash model has been loaded
+2025-12-26 13:04:03,419 - WARNING - Error in PrintRetrievalHandler.on_retriever_start callback: NoSessionContext()
+2025-12-26 13:04:03,478 - WARNING - Error in PrintRetrievalHandler.on_retriever_end callback: NoSessionContext()
+2025-12-26 13:04:03,479 - INFO - AFC is enabled with max remote calls: 10.
+2025-12-26 13:04:04,515 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2025-12-26 13:04:07,367 - INFO - Load pretrained SentenceTransformer: thenlper/gte-base
+2025-12-26 13:04:09,877 - INFO - .env has been found
+2025-12-26 13:04:09,902 - INFO - Gemini 2.5 Flash model has been loaded
+2025-12-26 13:04:09,960 - WARNING - Error in PrintRetrievalHandler.on_retriever_start callback: NoSessionContext()
+2025-12-26 13:04:10,027 - WARNING - Error in PrintRetrievalHandler.on_retriever_end callback: NoSessionContext()
+2025-12-26 13:04:10,028 - INFO - AFC is enabled with max remote calls: 10.
+2025-12-26 13:04:12,071 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2025-12-26 13:04:16,389 - INFO - Load pretrained SentenceTransformer: thenlper/gte-base
+2025-12-26 13:04:18,997 - INFO - .env has been found
+2025-12-26 13:04:19,025 - INFO - Gemini 2.5 Flash model has been loaded
+2025-12-26 13:04:57,063 - INFO - Load pretrained SentenceTransformer: thenlper/gte-base
+2025-12-26 13:05:00,162 - INFO - .env has been found
+2025-12-26 13:05:00,184 - INFO - Gemini 2.5 Flash model has been loaded
+2025-12-26 13:05:00,243 - WARNING - Error in PrintRetrievalHandler.on_retriever_start callback: NoSessionContext()
+2025-12-26 13:05:00,332 - WARNING - Error in PrintRetrievalHandler.on_retriever_end callback: NoSessionContext()
+2025-12-26 13:05:00,333 - INFO - AFC is enabled with max remote calls: 10.
+2025-12-26 13:05:01,735 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2025-12-26 13:05:13,457 - INFO - Load pretrained SentenceTransformer: thenlper/gte-base
+2025-12-26 13:05:16,057 - INFO - .env has been found
+2025-12-26 13:05:16,081 - INFO - Gemini 2.5 Flash model has been loaded
+2025-12-26 13:05:16,138 - WARNING - Error in PrintRetrievalHandler.on_retriever_start callback: NoSessionContext()
+2025-12-26 13:05:16,204 - WARNING - Error in PrintRetrievalHandler.on_retriever_end callback: NoSessionContext()
+2025-12-26 13:05:16,205 - INFO - AFC is enabled with max remote calls: 10.
+2025-12-26 13:05:17,197 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
