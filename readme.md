@@ -35,7 +35,7 @@ Built with Langchain, LlamaCPP, Streamlit, ChromaDB and Sentence Transformers. W
 
 
 <div align="center">
-<a href="https://github.com/user-attachments/assets/f70695ce-17f1-4fac-93e8-8c636fd05245">▶️ Demo Video</a>
+<video src="https://github.com/user-attachments/assets/f70695ce-17f1-4fac-93e8-8c636fd05245" controls width="600"></video>
 </div>
 
 
